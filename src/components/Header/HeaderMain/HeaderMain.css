@@ -1,0 +1,29 @@
+.header-main-wrapper {
+    margin-top: 5px;
+    background-color: #fec424;
+    height: 120px;
+    display: grid;
+}
+
+.header-main-content {
+    margin: auto;
+    height: 120px;
+}
+
+.wordmark,
+.header-main-content-text {
+    display: inline-block;
+}
+
+.wordmark {
+    height: 100px;
+}
+
+.header-main-content-text {
+    height: 100%;
+}
+
+.site-title {
+    font-size: 33px;
+    font-weight: 600;
+}

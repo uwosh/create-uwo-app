@@ -17,7 +17,7 @@ class HeaderMain extends Component {
           <div className="site-title-wrapper">
             <div className="site-title">University of Wisconsin Oshkosh</div>
           </div>
-          <div className="uwo-top-nav-wrapper">
+          <nav className="uwo-top-nav-wrapper">
             <ul className="uwo-top-nav">
               <li>
                 <a href="https://www.gmail.com/">Email</a>
@@ -43,7 +43,7 @@ class HeaderMain extends Component {
                 </a>
               </li>
             </ul>
-          </div>
+          </nav>
         </div>
       </div>
     );

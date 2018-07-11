@@ -55,3 +55,11 @@
     display: block;
     padding: 5px 0;
 }
+
+.emergency-bumpdown {
+    margin-top: 45px;
+}
+
+.emergency-bumpdown-emergency {
+    margin-top: 75px;
+}

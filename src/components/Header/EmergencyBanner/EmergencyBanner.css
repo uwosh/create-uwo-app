@@ -1,0 +1,50 @@
+.emergency-banner-wrapper {
+    background-color: #0066cc;
+    color: white;
+    height: 45px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999999;
+    display: grid;
+}
+
+.emergency-banner-content {
+    margin: auto;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: 600;
+    max-width: 1080px;
+}
+
+.broadcast-link {
+    color: white;
+    text-decoration: none;
+}
+
+.broadcast-link:hover .broadcast-title,
+.broadcast-link:hover .broadcast-description {
+    text-decoration: underline;
+}
+
+.broadcast-title {
+    padding-left: 5px;
+}
+
+.emergency-banner-wrapper.info {
+    background: #0066cc;
+}
+
+.emergency-banner-wrapper.warning {
+    background: #ff9900;
+}
+
+.emergency-banner-wrapper.warning a {
+    color: black;
+}
+
+.emergency-banner-wrapper.emergency {
+    background: #d91e18;
+    height: 75px;
+}

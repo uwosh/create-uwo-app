@@ -6,7 +6,7 @@ import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
 class TopNav extends Component {
   render() {
     return (
-      <nav className="top-menu">
+      <nav className="top-menu emergency-bumpdown-emergency">
         <div className="menu-wrapper">
           <ul className="menu-items">
             <li>

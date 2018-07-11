@@ -21,19 +21,21 @@ class App extends Component {
         return response.json();
       })
       .then(json => {
-        const title = json[0].title.rendered;
-        const description = json[0].content.rendered.replace(
-          /<\/?[^>]+(>|$)/g,
-          ""
-        );
-        const link = json[0].link;
-        const emergencyType = this.parseEmergencyType(json[0].categories);
-        this.setState({
-          emergencyTitle: title,
-          emergencyDescription: description,
-          emergencyLink: link,
-          emergencyBannerType: emergencyType
-        });
+        if (json.length > 0) {
+          const title = json[0].title.rendered;
+          const description = json[0].content.rendered.replace(
+            /<\/?[^>]+(>|$)/g,
+            ""
+          );
+          const link = json[0].link;
+          const emergencyType = this.parseEmergencyType(json[0].categories);
+          this.setState({
+            emergencyTitle: title,
+            emergencyDescription: description,
+            emergencyLink: link,
+            emergencyBannerType: emergencyType
+          });
+        }
       });
   }
 

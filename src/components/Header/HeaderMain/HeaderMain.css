@@ -10,9 +10,11 @@
     height: 120px;
 }
 
-.wordmark,
+.wordmark-wrapper,
 .header-main-content-text {
     display: inline-block;
+    height: 100%;
+    vertical-align: top;
 }
 
 .wordmark {
@@ -26,4 +28,5 @@
 .site-title {
     font-size: 33px;
     font-weight: 600;
+    padding-top: 50px;
 }

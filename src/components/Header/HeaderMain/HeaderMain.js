@@ -7,11 +7,13 @@ class HeaderMain extends Component {
     return (
       <div className="header-main-wrapper">
         <div className="header-main-content">
-          <img
-            src={Wordmark}
-            alt="University of Wisconsin Oshkosh logo"
-            className="wordmark"
-          />
+          <div className="wordmark-wrapper">
+            <img
+              src={Wordmark}
+              alt="University of Wisconsin Oshkosh logo"
+              className="wordmark"
+            />
+          </div>
           <div className="header-main-content-text">
             <div className="site-title">UW Oshkosh</div>
           </div>

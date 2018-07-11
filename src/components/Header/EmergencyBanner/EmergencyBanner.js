@@ -19,11 +19,17 @@ class EmergencyBanner extends Component {
         }
       >
         <div className="emergency-banner-content">
-          <a className="broadcast-link" href="" target="_blank">
+          <a
+            className="broadcast-link"
+            href={this.props.emergencyLink}
+            target="_blank"
+          >
             <FontAwesomeIcon icon={faExclamationTriangle} />
-            <span className="broadcast-title">This is an emergency title</span>
+            <span className="broadcast-title">
+              {this.props.emergencyTitle + ": "}
+            </span>
             <span className="broadcast-description">
-              this is an emergency description and it is a little bit longer
+              {this.props.emergencyDescription}
             </span>
           </a>
         </div>

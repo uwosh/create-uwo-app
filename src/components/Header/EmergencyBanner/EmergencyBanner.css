@@ -7,19 +7,20 @@
     width: 100%;
     z-index: 999999;
     display: none;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
 }
 
 .display-banner {
-    display: grid;
+    display: flex;
 }
 
 .emergency-banner-content {
-    margin: auto;
-    white-space: nowrap;
+    padding: 0 15px;
     overflow: hidden;
     text-overflow: ellipsis;
     font-weight: 600;
-    max-width: 1080px;
 }
 
 .broadcast-link {

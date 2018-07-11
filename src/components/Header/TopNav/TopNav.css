@@ -44,6 +44,7 @@
     padding-left: 25px;
     padding-right: 25px;
     right: 0;
+    z-index: 1;
 }
 
 .menu-items li:last-of-type:hover .sub-menu-items {

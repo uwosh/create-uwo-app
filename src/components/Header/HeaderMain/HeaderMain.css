@@ -8,10 +8,12 @@
 .header-main-content {
     margin: auto;
     height: 120px;
+    min-width: 1080px;
+    position: relative;
 }
 
 .wordmark-wrapper,
-.header-main-content-text {
+.site-title-wrapper {
     display: inline-block;
     height: 100%;
     vertical-align: top;
@@ -21,7 +23,7 @@
     height: 100px;
 }
 
-.header-main-content-text {
+.site-title-wrapper {
     height: 100%;
 }
 
@@ -29,4 +31,32 @@
     font-size: 33px;
     font-weight: 600;
     padding-top: 50px;
+    color: #333;
+}
+
+.uwo-top-nav-wrapper {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-top: 15px;
+    padding-right: 72px;
+}
+
+.uwo-top-nav {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: inline-block;
+}
+
+.uwo-top-nav li {
+    display: inline-block;
+    padding: 0 6px;
+}
+
+.uwo-top-nav li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
 }

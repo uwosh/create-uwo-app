@@ -14,8 +14,35 @@ class HeaderMain extends Component {
               className="wordmark"
             />
           </div>
-          <div className="header-main-content-text">
-            <div className="site-title">UW Oshkosh</div>
+          <div className="site-title-wrapper">
+            <div className="site-title">University of Wisconsin Oshkosh</div>
+          </div>
+          <div className="uwo-top-nav-wrapper">
+            <ul className="uwo-top-nav">
+              <li>
+                <a href="https://www.gmail.com/">Email</a>
+              </li>
+              <li>
+                <a href="http://www.uwosh.edu/library">Polk Library</a>
+              </li>
+              <li>
+                <a href="http://www.uwosh.edu/directory">Directory</a>
+              </li>
+              <li>
+                <a href="http://www.uwosh.edu/d2l/">D2L</a>
+              </li>
+              <li>
+                <a href="https://my.wisconsin.edu/">My UW System</a>
+              </li>
+              <li>
+                <a href="http://emergency.uwosh.edu/">Safety</a>
+              </li>
+              <li>
+                <a href="http://www.uwosh.edu/forward/leadership-council/">
+                  Leadership Council
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>

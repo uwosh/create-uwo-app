@@ -8,8 +8,8 @@ class Header extends Component {
   render() {
     return (
       <div className="header-wrapper">
-        <EmergencyBanner />
-        <TopNav />
+        <EmergencyBanner emergencyBannerType={this.props.emergencyBannerType} />
+        <TopNav emergencyBannerType={this.props.emergencyBannerType} />
         <HeaderMain />
       </div>
     );

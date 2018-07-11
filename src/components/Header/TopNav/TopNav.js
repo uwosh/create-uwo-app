@@ -6,7 +6,17 @@ import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
 class TopNav extends Component {
   render() {
     return (
-      <nav className="top-menu emergency-bumpdown-emergency">
+      <nav
+        className={
+          "top-menu " +
+          (this.props.emergencyBannerType === "emergency"
+            ? "emergency-bumpdown-emergency"
+            : this.props.emergencyBannerType === "warning" ||
+              this.props.emergencyBannerType === "info"
+              ? "emergency-bumpdown"
+              : "")
+        }
+      >
         <div className="menu-wrapper">
           <ul className="menu-items">
             <li>

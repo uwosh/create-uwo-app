@@ -6,7 +6,18 @@ import { faExclamationTriangle } from "@fortawesome/free-solid-svg-icons";
 class EmergencyBanner extends Component {
   render() {
     return (
-      <div className="emergency-banner-wrapper emergency">
+      <div
+        className={
+          "emergency-banner-wrapper " +
+          (this.props.emergencyBannerType === "emergency"
+            ? "display-banner emergency"
+            : this.props.emergencyBannerType === "warning"
+              ? "display-banner warning"
+              : this.props.emergencyBannerType === "info"
+                ? "display-banner info"
+                : "")
+        }
+      >
         <div className="emergency-banner-content">
           <a className="broadcast-link" href="" target="_blank">
             <FontAwesomeIcon icon={faExclamationTriangle} />

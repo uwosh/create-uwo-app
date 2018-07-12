@@ -2,8 +2,25 @@ import React, { Component } from "react";
 import "./TopNav.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 class TopNav extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      menuVisible: false
+    };
+    this.menuToggle = this.menuToggle.bind(this);
+  }
+
+  menuToggle() {
+    if (this.state.menuVisible) {
+      this.setState({ menuVisible: false });
+    } else {
+      this.setState({ menuVisible: true });
+    }
+  }
+
   render() {
     return (
       <nav
@@ -18,7 +35,14 @@ class TopNav extends Component {
         }
       >
         <div className="menu-wrapper">
-          <ul className="menu-items">
+          <div className="mobile-menu" onClick={this.menuToggle}>
+            <FontAwesomeIcon icon={faBars} />
+          </div>
+          <ul
+            className={
+              "menu-items " + (this.state.menuVisible ? "active" : "disabled")
+            }
+          >
             <li>
               <a href="https://uwosh.edu/about-uw-oshkosh/">About</a>
             </li>

@@ -7,7 +7,7 @@ import EmergencyBanner from "./EmergencyBanner/EmergencyBanner";
 class Header extends Component {
   render() {
     return (
-      <div className="header-wrapper">
+      <header className="header-wrapper">
         <EmergencyBanner
           emergencyTitle={this.props.emergencyTitle}
           emergencyDescription={this.props.emergencyDescription}
@@ -16,7 +16,7 @@ class Header extends Component {
         />
         <TopNav emergencyBannerType={this.props.emergencyBannerType} />
         <HeaderMain />
-      </div>
+      </header>
     );
   }
 }

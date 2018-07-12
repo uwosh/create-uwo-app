@@ -1,8 +1,27 @@
 import React, { Component } from "react";
 import "./HeaderMain.css";
+import "./HeaderMainMobile.css";
 import Wordmark from "../../../images/wordmark.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 class HeaderMain extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      menuVisible: false
+    };
+    this.menuToggle = this.menuToggle.bind(this);
+  }
+
+  menuToggle() {
+    if (this.state.menuVisible) {
+      this.setState({ menuVisible: false });
+    } else {
+      this.setState({ menuVisible: true });
+    }
+  }
+
   render() {
     return (
       <div className="header-main-wrapper">
@@ -18,7 +37,15 @@ class HeaderMain extends Component {
             <div className="site-title">University of Wisconsin Oshkosh</div>
           </div>
           <nav className="secondary-nav-wrapper">
-            <ul className="secondary-nav">
+            <div className="mobile-menu" onClick={this.menuToggle}>
+              <FontAwesomeIcon icon={faBars} />
+            </div>
+            <ul
+              className={
+                "secondary-nav " +
+                (this.state.menuVisible ? "active" : "disabled")
+              }
+            >
               <li>
                 <a href="https://www.gmail.com/">Email</a>
               </li>

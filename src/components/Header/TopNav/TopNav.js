@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./TopNav.css";
+import "./TopNavMobile.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
 import { faBars } from "@fortawesome/free-solid-svg-icons";

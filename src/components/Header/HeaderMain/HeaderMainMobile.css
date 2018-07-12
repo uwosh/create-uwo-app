@@ -1,0 +1,30 @@
+@media only screen and (max-width: 980px) {
+  .secondary-nav-wrapper {
+    right: 0;
+    margin-right: -12.6%;
+  }
+
+  .secondary-nav {
+    background-color: #fec424;
+    padding: 20px 40px;
+  }
+
+  .secondary-nav li {
+    display: block;
+    padding: 5px 0;
+  }
+
+  .secondary-nav.active,
+  .secondary-nav.disabled {
+    transition: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .secondary-nav.active {
+    margin-right: 0px;
+  }
+
+  .secondary-nav.disabled {
+    margin-right: -209px;
+  }
+}

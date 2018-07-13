@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import "./App.css";
 import Header from "./components/Header/Header";
+import Body from "./components/Body/Body";
+import Footer from "./components/Footer/Footer";
 
 class App extends Component {
   constructor(props) {
@@ -63,6 +65,8 @@ class App extends Component {
           emergencyLink={this.state.emergencyLink}
           emergencyBannerType={this.state.emergencyBannerType}
         />
+        <Body />
+        <Footer />
       </div>
     );
   }

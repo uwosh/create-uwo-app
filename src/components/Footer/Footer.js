@@ -5,9 +5,10 @@ class Footer extends Component {
   render() {
     return (
       <footer className="footer-wrapper">
-        <h1>Footer Title</h1>
-        <p>Footer text.</p>
-        <p>Footer text 2.</p>
+        <div className="footer-top">
+          The University of Wisconsin Oshkosh -- Where Excellence and
+          Opportunity Meet.
+        </div>
       </footer>
     );
   }

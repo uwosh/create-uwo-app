@@ -1,5 +1,13 @@
 .footer-wrapper {
-  background-color: orange;
   grid-row-start: 3;
   grid-row-end: 4;
+}
+
+.footer-top {
+  background-color: #fec424;
+  color: #444;
+  text-align: center;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 12px 0;
 }

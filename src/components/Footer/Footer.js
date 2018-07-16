@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./Footer.css";
+import FooterMain from "./FooterMain/FooterMain";
 import FooterBottom from "./FooterBottom/FooterBottom";
 
 class Footer extends Component {
@@ -10,7 +11,7 @@ class Footer extends Component {
           The University of Wisconsin Oshkosh - Where Excellence and Opportunity
           Meet.
         </div>
-        <div className="footer-main" />
+        <FooterMain />
         <FooterBottom />
       </footer>
     );

@@ -1,0 +1,27 @@
+.location {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.wisconsin-map-link {
+    margin: auto;
+}
+
+.wisconsin-map-img {
+    filter: grayscale(100%);
+    transition: all .6s ease;
+}
+
+.wisconsin-map-img:hover {
+    filter: grayscale(0%);
+}
+
+.address-link,
+.phone-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.campus-address {
+    font-style: normal;
+}

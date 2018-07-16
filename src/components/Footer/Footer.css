@@ -11,3 +11,27 @@
   font-size: 16px;
   padding: 12px 0;
 }
+
+.footer-bottom {
+  background-color: #444;
+  color: #dbdbdb;
+  padding: 20px 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  font-weight: 300;
+}
+
+.copyright,
+.social {
+  display: inline-block;
+  margin: auto 0;
+}
+
+.social {
+  text-align: right;
+}
+
+.social-item {
+  padding-left: 30px;
+}

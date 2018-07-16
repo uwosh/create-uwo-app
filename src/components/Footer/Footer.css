@@ -34,4 +34,33 @@
 
 .social-item {
   padding-left: 30px;
+  transition: all 0.6s ease;
+}
+
+.social-item.facebook:hover {
+  color: #3b5998;
+}
+
+.social-item.twitter:hover {
+  color: #1da1f2;
+}
+
+.social-item.instagram:hover {
+  color: #f56040;
+}
+
+.social-item.youtube:hover {
+  color: #cd201f;
+}
+
+.social-item.linkedin:hover {
+  color: #0077b5;
+}
+
+.social-item.pinterest:hover {
+  color: #bd081c;
+}
+
+.social-item.flickr:hover {
+  color: #8032b0;
 }

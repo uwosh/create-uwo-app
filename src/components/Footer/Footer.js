@@ -23,41 +23,83 @@ class Footer extends Component {
         <div className="footer-bottom">
           <div className="copyright">©2018 UW Board of Regents</div>
           <div className="social">
-            <FontAwesomeIcon
-              icon={faFacebookF}
-              size="2x"
-              className="social-item facebook"
-            />
-            <FontAwesomeIcon
-              icon={faTwitter}
-              size="2x"
-              className="social-item twitter"
-            />
-            <FontAwesomeIcon
-              icon={faInstagram}
-              size="2x"
-              className="social-item instagram"
-            />
-            <FontAwesomeIcon
-              icon={faYoutube}
-              size="2x"
-              className="social-item youtube"
-            />
-            <FontAwesomeIcon
-              icon={faLinkedinIn}
-              size="2x"
-              className="social-item linkedin"
-            />
-            <FontAwesomeIcon
-              icon={faPinterestP}
-              size="2x"
-              className="social-item pinterest"
-            />
-            <FontAwesomeIcon
-              icon={faFlickr}
-              size="2x"
-              className="social-item flickr"
-            />
+            <a
+              href="https://www.facebook.com/uwoshkosh"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon
+                icon={faFacebookF}
+                size="2x"
+                className="social-item facebook"
+              />
+            </a>
+            <a
+              href="https://twitter.com/uwoshkosh"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon
+                icon={faTwitter}
+                size="2x"
+                className="social-item twitter"
+              />
+            </a>
+            <a
+              href="http://instagram.com/uwoshkosh"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon
+                icon={faInstagram}
+                size="2x"
+                className="social-item instagram"
+              />
+            </a>
+            <a
+              href="http://www.youtube.com/uwosh"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon
+                icon={faYoutube}
+                size="2x"
+                className="social-item youtube"
+              />
+            </a>
+            <a
+              href="http://www.linkedin.com/edu/school?id=19693"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon
+                icon={faLinkedinIn}
+                size="2x"
+                className="social-item linkedin"
+              />
+            </a>
+            <a
+              href="http://www.pinterest.com/uwoshkosh/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon
+                icon={faPinterestP}
+                size="2x"
+                className="social-item pinterest"
+              />
+            </a>
+            <a
+              href="http://www.flickr.com/photos/uwoshkosh/sets/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon
+                icon={faFlickr}
+                size="2x"
+                className="social-item flickr"
+              />
+            </a>
           </div>
         </div>
       </footer>

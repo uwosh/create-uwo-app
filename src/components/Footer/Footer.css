@@ -1,0 +1,5 @@
+.footer-wrapper {
+  background-color: orange;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}

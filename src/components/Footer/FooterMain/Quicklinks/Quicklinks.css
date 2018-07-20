@@ -1,0 +1,21 @@
+.quickLinks-title {
+    padding-left: 50px;
+}
+
+.quickLinks-content-wrapper {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    grid-row-gap: 10px;
+}
+
+.quickLinks-icon {
+    font-size: 40px;
+}
+
+.quickLinks-content-wrapper *:nth-child(odd) {
+    margin: 10px auto;
+}
+
+.quickLinks-content-wrapper *:nth-child(even) {
+    margin: auto 0;
+}

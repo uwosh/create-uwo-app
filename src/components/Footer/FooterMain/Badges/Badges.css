@@ -1,0 +1,10 @@
+.accreditation-wrapper,
+.uw-system-badge-wrapper {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.accreditation-wrapper {
+    filter: grayscale(100%);
+    margin-right: 10px;
+}

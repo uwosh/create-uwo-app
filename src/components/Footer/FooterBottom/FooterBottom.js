@@ -21,6 +21,7 @@ class FooterBottom extends Component {
             href="https://www.facebook.com/uwoshkosh"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="UW Oshkosh Facebook"
           >
             <FontAwesomeIcon
               icon={faFacebookF}
@@ -32,6 +33,7 @@ class FooterBottom extends Component {
             href="https://twitter.com/uwoshkosh"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="UW Oshkosh Twitter"
           >
             <FontAwesomeIcon
               icon={faTwitter}
@@ -43,6 +45,7 @@ class FooterBottom extends Component {
             href="http://instagram.com/uwoshkosh"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="UW Oshkosh Instagram"
           >
             <FontAwesomeIcon
               icon={faInstagram}
@@ -54,6 +57,7 @@ class FooterBottom extends Component {
             href="http://www.youtube.com/uwosh"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="UW Oshkosh YouTube"
           >
             <FontAwesomeIcon
               icon={faYoutube}
@@ -65,6 +69,7 @@ class FooterBottom extends Component {
             href="http://www.linkedin.com/edu/school?id=19693"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="UW Oshkosh LinkedIn"
           >
             <FontAwesomeIcon
               icon={faLinkedinIn}
@@ -76,6 +81,7 @@ class FooterBottom extends Component {
             href="http://www.pinterest.com/uwoshkosh/"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="UW Oshkosh Pinterest"
           >
             <FontAwesomeIcon
               icon={faPinterestP}
@@ -87,6 +93,7 @@ class FooterBottom extends Component {
             href="http://www.flickr.com/photos/uwoshkosh/sets/"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="UW Oshkosh Flickr"
           >
             <FontAwesomeIcon
               icon={faFlickr}

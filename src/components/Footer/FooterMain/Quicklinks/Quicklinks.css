@@ -31,10 +31,10 @@
     font-size: 40px;
 }
 
-.quickLinks-content-wrapper *:nth-child(odd) {
+.quickLinks-content-wrapper a *:nth-child(odd) {
     margin: 10px auto;
 }
 
-.quickLinks-content-wrapper *:nth-child(even) {
+.quickLinks-content-wrapper a *:nth-child(even) {
     margin: auto 0;
 }

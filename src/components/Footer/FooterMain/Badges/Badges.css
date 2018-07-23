@@ -1,10 +1,15 @@
-.accreditation-wrapper,
-.uw-system-badge-wrapper {
-    display: inline-block;
-    vertical-align: top;
+.badges-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 10px
+}
+
+@media screen and (max-width: 1440px) {
+    .badges-wrapper {
+        grid-template-columns: 1fr;
+    }
 }
 
 .accreditation-wrapper {
     filter: grayscale(100%);
-    margin-right: 10px;
 }

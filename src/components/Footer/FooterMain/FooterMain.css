@@ -8,7 +8,19 @@
   padding: 45px 0;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 4em;
+  grid-gap: 2em;
+}
+
+@media screen and (max-width: 768px) {
+  .footer-main-wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .footer-main-wrapper {
+    grid-template-columns: 1fr;
+  }
 }
 
 .footer-main .title {

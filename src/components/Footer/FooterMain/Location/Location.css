@@ -1,6 +1,15 @@
 .location {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 3fr;
+}
+
+@media screen and (max-width: 1440px) {
+    .location {
+        grid-template-columns: 1fr;
+    }
+    .wisconsin-map-link {
+        margin: 0 !important;
+    }
 }
 
 .wisconsin-map-link {

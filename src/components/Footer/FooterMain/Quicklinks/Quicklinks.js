@@ -12,13 +12,17 @@ class QuickLinks extends Component {
       <div className="quickLinks-wrapper">
         <div className="quickLinks-title title">Quick Links</div>
         <div className="quickLinks-content-wrapper">
-          <FontAwesomeIcon icon={faMobile} className="quickLinks-icon" />
-          <span>Download UW Oshkosh's Mobile App</span>
-          <FontAwesomeIcon
-            icon={faExclamationTriangle}
-            className="quickLinks-icon"
-          />
-          <span>Emergency and Safety Information</span>
+          <a href="http://www.uwosh.edu/go/mobile" className="link-wrapper">
+            <FontAwesomeIcon icon={faMobile} className="quickLinks-icon" />
+            <span>Download UW Oshkosh's Mobile App</span>
+          </a>
+          <a href="https://uwosh.edu/emergency" className="link-wrapper">
+            <FontAwesomeIcon
+              icon={faExclamationTriangle}
+              className="quickLinks-icon"
+            />
+            <span>Emergency and Safety Information</span>
+          </a>
         </div>
       </div>
     );

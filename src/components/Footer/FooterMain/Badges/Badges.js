@@ -9,7 +9,7 @@ class Badges extends Component {
         <div className="accreditation-wrapper">
           <iframe
             title="accreditation status badge for UW Oshkosh"
-            frameborder="0"
+            frameBorder="0"
             scrolling="no"
             allowtransparency="true"
             width="150"

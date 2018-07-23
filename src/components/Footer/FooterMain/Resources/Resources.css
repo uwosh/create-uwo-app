@@ -1,0 +1,9 @@
+.resources-wrapper ul {
+  list-style: none;
+  padding: 0;
+}
+
+.resources-wrapper a {
+  text-decoration: none;
+  color: inherit;
+}

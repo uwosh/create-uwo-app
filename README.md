@@ -25,6 +25,10 @@ Just create a project, and you’re good to go.
 It will create a directory called `my-app` inside the current folder.<br>
 Inside that directory, it will generate the initial project structure and install the transitive dependencies:
 
+## Editor Suggestions
+
+Of course this project will work in any text editor, but we suggest using [Visual Studio Code](https://code.visualstudio.com/). We also suggest that you have the plugins [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) and [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) installed. We have also found the [Debugger for Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome) to be very helpful. Configurations for each of these extensions and VS Code can be found in the `.vscode` folder.
+
 ## Structure
 
 This app has preconfigured UWO branding, images, and components built in.
